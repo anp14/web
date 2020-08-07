@@ -1,0 +1,779 @@
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Brushstroke, fantasy;
+  color: #000000;
+}
+
+body {
+  background-image: url("images/background.jpg");
+  background-color: #FEF5CA;
+
+}
+
+p {
+  padding: 10px;
+  margin: 0;
+}
+
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+section {
+  border: 1px solid black;
+  background-color: #00FF99;
+  width: 100%;
+  height: auto;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  overflow: auto;
+}
+
+#Taj {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#khaj {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#hampi {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#ajanta {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#ellora {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#bodh {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#sun {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#red {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#sanchi {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#chola {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#kazi {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#group {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#sunder {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#huma {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#jantar {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#agra {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#fateh {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#rani {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#grp {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#ele {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#nal {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#chat {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#mnt {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#qutub {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#champ {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#great {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#hill {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#church {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#rock {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#manas {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#keo {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#nanda {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#west {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#khan {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#cap {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#the {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#Taj-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#khaj-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#hampi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#ajanta-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#ellora-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#bodh-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#red-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sun-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sanchi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#chola-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#kazi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#group-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sunder-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#huma-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#jantar-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#agra-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#fateh-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#rani-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#grp-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#ele-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#nal-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#chat-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#mnt-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#qutub-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#champ-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#great-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#hill-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#church-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#rock-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#manas-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#keo-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#nanda-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#west-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#khan-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#cap-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#the-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #FC5F06;
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+}
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.2em;
+}
